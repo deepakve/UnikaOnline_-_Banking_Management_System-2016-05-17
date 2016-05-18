@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>UNIKA HOME</title>
+<link href="home_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/UnikaOnline/jquery.js"></script>
+<script type="text/javascript" src="js/disableRightClick.js"></script>
+<script type="text/javascript" src="js/noback.js"></script>
+<script type="text/javascript" src="js/admin_index.js"></script>
+</head>
+<body oncontextmenu="return false" onload="noBack();">
+	<div class="container">
+		<div class="image">
+			<img src="images\logo.png" height="70" width="150" />
+		</div>
+
+		<div class="tabbed_area">
+			<ul class="tabs">
+				<li><a href="" id="tab_1">Login</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="page">
+		<div class="container">
+
+			<!-- tab "panes" -->
+			<div class="panes">
+				<div id="content_1" class="content">
+					<div class="login_info">
+						<h1>Welcome to Internet Banking Admin</h1>
+
+						<h5>Please enter your user ID and password below</h5>
+						<div class="login_details">
+							<form action="AdminLoginProcessorServlet" method="post">
+								<div class="id">
+									<a>User ID:</a><br> <input type="text" name="adminid"
+										id="adminid" value="" /><br>
+								</div>
+								<div class="pwd">
+									<a>Password:</a><br> <input type="password"
+										name="adminpassword" id="adminpassword" value="" />
+								</div>
+								<input type="submit" value="Continue" />
+							</form>
+						</div>
+						
+					</div>
+					<div>
+						<img src="images\login.png" height="335" width="300" />
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// perform JavaScript after the document is scriptable.
+		$(function() {
+			// setup ul.tabs to work as tabs for each div directly under div.panes
+			$("ul.tabs").tabs("div.panes > div");
+		});
+	</script>
+</body>
+</html>
