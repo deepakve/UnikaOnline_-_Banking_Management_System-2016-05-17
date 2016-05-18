@@ -1,0 +1,90 @@
+/* 
+    Document   : acc_info
+    Created on : May 12, 2013, 1:41:13 AM
+    Author     : Bujji
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body
+{
+    font-family: calibri;
+}
+
+h3
+{
+    color:green;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.info
+{
+    width:1060px;
+    margin-top: 20px;
+}
+
+
+.type
+{
+    position: relative;
+    width:1060px;
+    margin-left: 15px;
+    border-bottom:1px solid green;
+    background: linear-gradient(to bottom, rgba(244,255,245,1) 0%,rgba(250,255,249,1) 50%,rgba(247,255,247,1) 52%,rgba(255,255,255,1) 100%);
+}
+
+.view_acc
+{
+    border-spacing : 10px;
+    border-collapse : separate;
+    margin-right : auto;
+}
+
+.savings
+{
+   position: relative;
+   width:1060px;
+   margin-left: 15px; 
+   margin-bottom:5px;
+   height: 170px;
+   border-bottom: 1px solid green;
+   background: linear-gradient(to bottom, rgba(244,255,245,1) 0%,rgba(250,255,249,1) 50%,rgba(247,255,247,1) 52%,rgba(255,255,255,1) 100%);
+}
+
+.acc_img
+{   
+    height:150px;
+    width: 200px;
+    padding: 10px;
+    float:left;
+}
+
+.acc_type
+{
+    position: relative;
+    margin-left: 20px;
+    height:150px;
+    width:250px;
+    float:left;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+.acc_details
+{
+    padding: 7px;    
+    float:left;
+}
+
+.current
+{
+   position: relative;
+   width:1060px;
+   margin-left: 15px; 
+   margin-bottom:5px;
+   height: 170px;
+   border-bottom: 1px solid green;
+   background: linear-gradient(to bottom, rgba(244,255,245,1) 0%,rgba(250,255,249,1) 50%,rgba(247,255,247,1) 52%,rgba(255,255,255,1) 100%);
+}
+
+

@@ -1,0 +1,118 @@
+* 
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body 
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #008d00;	
+}
+
+html,body 
+{
+	height: 100%;
+}
+
+.container 
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+.title
+{
+    width:450px;
+    margin: 0px auto;
+    float: left;
+}
+
+img
+{
+   padding: 10px; 
+}
+
+#page 
+{
+	width: 100%;
+	background: #f1f1f1;
+	border-top: 10px solid #1C1C1C;
+	border-bottom: 10px solid #1C1C1C;
+	height: 75%;	
+}
+
+.info
+{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    width:450px;
+    float: left;
+}
+
+.info h1
+{
+   color: #0B6121;
+   font-family: comic sans ms;
+   font-size: 45px;
+}
+
+.info_image
+{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+a 
+{
+	color: #151515;
+    font-weight: bolder;    
+}
+
+p 
+{
+	margin: 10px 0;
+}
+
+input[type="button"] 
+{
+    background: #1C1C1C;
+    padding: 10px; 
+    margin-right: 8px;
+    margin-bottom:10px;
+    font-family: Cambria;
+    color:#f1f1f1;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.id, .pwd
+{
+    margin-top: 10px;
+}
+
+input[type="submit"],input[type="button"],input[type="reset"]
+{
+    background: #0B6121;
+    padding: 5px; 
+    font-family: Cambria;
+    color:#f1f1f1;
+    font-size: 15px;
+    margin-top: 20px; 
+    width:100px;
+}
+
+input[type="text"], input[type="password"] 
+{
+    margin-top: 5px;
+    width:200px;
+}
+
+label
+{
+	font-size:11px;
+}

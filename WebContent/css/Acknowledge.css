@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+p
+{	
+	font-weight:bold;
+}
+
+.success
+{
+	margin-left:30px;
+	margin-top:70px;
+}
+
+.failure
+{
+	margin-left:30px;
+	margin-top:70px;
+}
+
+.failure p
+{
+	font-weight:normal;
+	color:red;
+}
+
+a
+{
+	text-decoration:none;
+	color:#008d00;
+	font-weight:bold;
+	font-family:calibri;
+	font-size:20px;		
+}
+
+table
+{
+	margin-top:20px;
+	margin-left:30px;
+	margin-bottom:10px;
+	border-collapse:collapse;
+	font-family:calibri;
+    font-size:20px;
+    padding:5px;
+    color:#424242;
+}
+
+table th,table td
+{
+	width:500px;
+	text-align:left;
+	padding:5px;
+}

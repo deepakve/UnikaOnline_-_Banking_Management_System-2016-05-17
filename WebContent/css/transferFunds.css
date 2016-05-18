@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+.data
+{
+	margin-top:30px;
+	margin-left:25px;	
+	border:2px solid #424242;
+	padding:20px;
+	margin-right:25px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;	
+}
+
+.content
+{
+	margin-bottom:20px;
+}
+
+.accounts table
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-collapse:collapse;
+	font-family:calibri;
+    font-size:18px;
+    color:#424242;
+}
+
+.accounts table td,.accounts table th
+{
+	width:300px;
+	text-align:left;
+	padding:5px;	
+	border:2px solid #BDBDBD;
+	border-left:none;
+	border-right:none;
+}
+
+.transfer
+{
+	border-spacing : 20px;
+	border-collapse : separate;
+    padding:4px;
+    font-family:calibri;
+    font-size:18px;
+    color:#424242;
+    font-weight:bold;
+}
+
+input[type="text"]
+{
+	width:250px;	
+	height:22px;
+	font-size:15px;	
+}

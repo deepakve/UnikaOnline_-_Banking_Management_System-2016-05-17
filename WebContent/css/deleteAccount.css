@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+.formButton ul, .formButton ul li
+{
+	height: 2em;
+    line-height: 2em;
+    list-style: none;
+    margin-left: 100px;
+    display: inline;
+    padding-right: 50px;
+}

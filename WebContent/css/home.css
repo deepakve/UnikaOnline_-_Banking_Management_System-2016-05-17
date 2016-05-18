@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+
+
+.login_info
+{
+   position: relative;
+   margin-top: 50px;
+   margin-left: 10px;
+   width:600px;
+   float: left;
+}
+
+.login_info h1
+{
+   color: #0B6121; 
+   font-family: Calibri;
+   font-size: 30px; 
+}
+
+.login_info p
+{
+   font-family: Calibri;
+   font-size: 16px;  
+   margin-left: 2px;
+}
+
+.login_info a
+{
+    color: #0B6121;
+}
+
+.login_details
+{
+    position: relative;
+    margin-top: 35px;
+    width: 400px;
+}
+
+.login_details a
+{
+   font-family: Calibri;
+   font-size: 16px;  
+   margin-left: 2px;
+}
+
+.tabbed_area
+{
+        position: relative;    
+}
+
+.tabbed_area a 
+{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.tabbed_area ul, .tabbed_area ul li 
+{
+    height: 2em;
+    line-height: 2em;
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+    padding-right: 5px;
+}
+
+ul.tabs a.current
+{
+    background-position: -420px -62px;
+    background-color:#1C1C1C;  
+    border-color:#f1f1f1;     
+    color:#ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+ul.tabs li a 
+{  
+    background-color:#008d00;  
+    color:#ffffff;  
+    padding:8px 14px 8px 14px;  
+    text-decoration:none;  
+    font-size:14px;  
+    font-family:Tahoma;  
+    font-weight:bold;  
+    text-transform:uppercase;  
+}  
+
+ul.tabs li a:hover 
+{  
+    background-color:#F2F2F2;  
+    border-color:#f1f1f1;     
+    color:#151515;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}

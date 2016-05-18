@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+.info
+{
+	margin-top:20px;
+	margin-left:30px;
+	width:1000px;
+	border:2px solid #BDBDBD;
+}
+
+.instructions
+{
+	background:#E6E6E6;
+	color:#008d00;
+	padding:10px;
+	font-family:calibri;
+	font-size:18px;
+	margin-top:50px;
+}
+
+table
+{
+	margin-top:50px;
+	margin-left:70px;
+	margin-bottom:10px;
+	border-collapse:collapse;
+	font-family:calibri;
+    font-size:18px;
+    color:#424242;
+}
+
+table td
+{
+	width:300px;
+	text-align:left;
+	padding:5px;
+}

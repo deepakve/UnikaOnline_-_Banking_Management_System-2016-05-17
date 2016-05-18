@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+.accounts table
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-collapse:collapse;
+	font-family:calibri;
+    font-size:18px;
+    color:#424242;
+}
+
+.accounts table td,.accounts table th
+{
+	width:300px;
+	text-align:left;
+	padding:5px;	
+	border:2px solid #BDBDBD;
+	border-left:none;
+	border-right:none;
+}
+
+.modify
+{
+	border-spacing : 20px;
+	border-collapse : separate;
+    padding:4px;
+    font-family:calibri;
+    font-size:18px;
+    color:#424242;
+    font-weight:bold;
+}
+
+input[type="text"]
+{
+	width:250px;	
+	height:22px;
+	font-size:15px;	
+}
