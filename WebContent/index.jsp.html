@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>UNIKA HOME</title>
+<link href="css\home_style.css" rel="stylesheet" type="text/css" />
+<link href="css\home.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/UnikaOnline/jquery.js"></script>
+<script type="text/javascript" src="js/disableRightClick.js"></script>
+<script type="text/javascript" src="js/noback.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body oncontextmenu="return false" onload="noBack();">
+	<div class="container">
+		<div class="image">
+			<img src="images\logo.png" height="70" width="150" />
+		</div>
+
+		<div class="tabbed_area">
+			<ul class="tabs">
+				<li><a href="" id="tab_1">Login</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="page">
+		<div class="container">
+
+			<!-- tab "panes" -->
+			<div class="panes">
+				<div id="content_1" class="content">
+					<div class="login_info">
+						<h1>Welcome to Internet Banking</h1>
+
+						<h5>Please enter your user ID and password below</h5>
+						<div>
+							<%
+								if (request.getAttribute("errmsglogin") != null) {
+							%>
+							<p style="color: red; font-style: italic;"><%=request.getAttribute("errmsglogin")%></p>
+							<%
+								}
+							%>
+						</div>
+						<div class="login_details">
+							<form action="LoginProcessorServlet" method="post">
+								<div class="id">
+									<a>User ID:</a><br> <input type="text" name="customerid"
+										id="customerid" value="" autocomplete="off" /><br>
+										<label flag="0" id="custid_msg"></label>
+								</div>
+								<div class="pwd">
+									<a>Password:</a><br> <input type="password"
+										name="password" id="password" value="" />
+										<label flag="0" id="pwd_msg"></label>
+								</div>
+								<input type="submit" value="Continue" onclick="return validate()"/>
+							</form>
+						</div>
+						<br>
+						<h6>
+							<a href="forgotPassword1.jsp">Unable To access Your Account?</a>
+						</h6>
+					</div>
+					<div>
+						<img src="images\login.png" height="335" width="300" />
+					</div>
+				</div>
+				<div id="content_2" class="content">
+					<img src="images\construction.png" height="500" width="600" />
+				</div>
+				<div id="content_3" class="content">
+					<img src="images\construction.png" height="500" width="600" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// perform JavaScript after the document is scriptable.
+		$(function() {
+			// setup ul.tabs to work as tabs for each div directly under div.panes
+			$("ul.tabs").tabs("div.panes > div");
+		});
+	</script>
+</body>
+</html>

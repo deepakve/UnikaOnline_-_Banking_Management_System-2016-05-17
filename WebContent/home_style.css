@@ -1,0 +1,240 @@
+* 
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body 
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #008d00;
+}
+
+html,body 
+{
+	height: 100%;
+}
+
+.container 
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.title
+{
+    width:450px;
+    margin: 0px auto;
+    float: left;
+}
+
+img
+{
+   padding: 10px; 
+}
+
+#page 
+{
+	width: 100%;
+	background: #f1f1f1;
+	border-top: 10px solid #1C1C1C;
+	border-bottom: 10px solid #1C1C1C;
+	min-height: 73%;
+}
+
+.info
+{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    width:450px;
+    float: left;
+}
+
+.info h1
+{
+   color: #0B6121;
+   font-family: comic sans ms;
+   font-size: 45px;
+}
+
+.info_image
+{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+a 
+{
+	color: #151515;
+        font-weight: bolder;
+}
+
+p 
+{
+	margin: 10px 0;
+}
+
+input[type="button"] 
+{
+    background: #1C1C1C;
+    padding: 10px; 
+    margin-right: 8px;
+    margin-bottom:10px;
+    font-family: Cambria;
+    color:#f1f1f1;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.login_info
+{
+   position: relative;
+   margin-top: 50px;
+   margin-left: 10px;
+   width:600px;
+   float: left;
+}
+
+.first_time
+{
+   position: relative;
+   margin-top: 25px;
+   margin-left: 10px;
+   width:600px;
+   float: left;
+}
+
+.login_info h1
+{
+   color: #0B6121; 
+   font-family: Calibri;
+   font-size: 30px; 
+}
+
+.login_info p
+{
+   font-family: Calibri;
+   font-size: 16px;  
+   margin-left: 2px;
+}
+
+.login_info a
+{
+    color: #0B6121;
+}
+
+
+.first_time h1
+{
+   color: #0B6121; 
+   font-family: Calibri;
+   font-size: 32px; 
+}
+
+.first_time p
+{
+   font-family: Calibri;
+   font-size: 16px;  
+   margin-left: 2px;
+}
+
+.first_time a
+{
+    color: #0B6121;
+}
+
+.login_details
+{
+    position: relative;
+    margin-top: 35px;
+    width: 400px;
+}
+
+.login_details a
+{
+   font-family: Calibri;
+   font-size: 16px;  
+   margin-left: 2px;
+}
+
+.id, .pwd
+{
+    margin-top: 10px;
+}
+
+input[type="submit"]
+{
+    background: #0B6121;
+    padding: 5px; 
+    font-family: Cambria;
+    color:#f1f1f1;
+    font-size: 15px;
+    margin-top: 20px; 
+}
+
+input[type="text"], input[type="password"] 
+{
+    margin-top: 5px;
+    width:200px;
+}
+
+/* Sliding Subnav Styles */
+.tabbed_area
+{
+        position: relative;    
+}
+
+.tabbed_area a 
+{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.tabbed_area ul, .tabbed_area ul li 
+{
+    height: 2em;
+    line-height: 2em;
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+    padding-right: 5px;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current
+{
+    background-position: -420px -62px;
+    background-color:#1C1C1C;  
+    border-color:#f1f1f1;     
+    color:#ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+ul.tabs li a 
+{  
+    background-color:#008d00;  
+    color:#ffffff;  
+    padding:8px 14px 8px 14px;  
+    text-decoration:none;  
+    font-size:14px;  
+    font-family:Tahoma;  
+    font-weight:bold;  
+    text-transform:uppercase;  
+}  
+
+ul.tabs li a:hover 
+{  
+    background-color:#F2F2F2;  
+    border-color:#f1f1f1;     
+    color:#151515;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}  
+
+
+
+
