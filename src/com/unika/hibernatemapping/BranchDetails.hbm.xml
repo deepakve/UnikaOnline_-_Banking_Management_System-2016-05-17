@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 6 Jun, 2013 10:30:40 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.unika.hibernatemapping.BranchDetails" table="T_BRANCH_DETAILS">
+		<id name="branchCode" type="java.lang.String">
+			<column name="BRANCHCODE" />
+			<generator class="increment" />
+		</id>
+		<property name="branchAddr1" type="java.lang.String">
+			<column name="BRANCHADDR1" />
+		</property>
+		<property name="branchAddr2" type="java.lang.String">
+			<column name="BRANCHADDR2" />
+		</property>
+		<property name="branchCity" type="java.lang.String">
+			<column name="BRANCHCITY" />
+		</property>
+		<property name="branchState" type="java.lang.String">
+			<column name="BRANCHSTATE" />
+		</property>
+		<property name="branchZipCode" type="int">
+			<column name="BRANCHZIPCODE" />
+		</property>
+	</class>
+</hibernate-mapping>

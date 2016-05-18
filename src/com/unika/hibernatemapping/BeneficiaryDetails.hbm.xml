@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 6 Jun, 2013 10:30:40 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.unika.hibernatemapping.BeneficiaryDetails"
+		table="T_MANAGE_BENEFICIARY">
+		<composite-id>
+			<key-property name="customerid" type="int">
+				<column name="CUSTOMERID" />
+			</key-property>
+			<key-property name="beneficiaryNumber" type="long">
+				<column name="BENEFICIARYNUMBER" />
+			</key-property>
+		</composite-id>
+		<property name="nickName" type="java.lang.String">
+			<column name="NICKNAME" />
+		</property>
+		<property name="limit" type="double">
+			<column name="LIMIT" />
+		</property>
+	</class>
+</hibernate-mapping>

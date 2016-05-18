@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 6 Jun, 2013 10:30:40 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.unika.hibernatemapping.TransactionHistory"
+		table="T_TRANSACTION_HISTORY">
+		<id name="txnid" type="int">
+			<column name="TXNID" />
+			<generator class="increment" />
+		</id>
+		<property name="withaccountnumber" type="long">
+			<column name="WITHACCOUNTNUMBER" />
+		</property>
+		<property name="toaccountnumber" type="long">
+			<column name="TOACCOUNTNUMBER" />
+		</property>
+		<property name="amount" type="double">
+			<column name="AMOUNT" />
+		</property>
+		<property name="withtransactioncode" type="java.lang.String">
+			<column name="WITHTRANSACTIONCODE" />
+		</property>
+		<property name="totransactioncode" type="java.lang.String">
+			<column name="TOTRANSACTIONCODE" />
+		</property>
+		<property name="timestamp" type="java.lang.String">
+			<column name="TIMESTAMP" />
+		</property>
+	</class>
+</hibernate-mapping>

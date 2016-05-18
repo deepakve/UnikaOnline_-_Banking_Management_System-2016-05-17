@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 6 Jun, 2013 10:30:40 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.unika.hibernatemapping.CustomerDetails" table="T_CUSTOMER_DETAILS">
+        <id name="customerid" type="int">
+            <column name="CUSTOMERID" />
+            <generator class="assigned" />
+        </id>
+        <property name="firstname" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="lastname" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="dob" type="java.util.Date">
+            <column name="DOB" />
+        </property>
+        <property name="address1" type="java.lang.String">
+            <column name="ADDRESS1" />
+        </property>
+        <property name="address2" type="java.lang.String">
+            <column name="ADDRESS2" />
+        </property>
+        <property name="city" type="java.lang.String">
+            <column name="CITY" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="STATE" />
+        </property>
+        <property name="zipcode" type="int">
+            <column name="ZIPCODE" />
+        </property>
+        <property name="createdon" type="java.lang.String">
+            <column name="CREATEDON" />
+        </property>
+    </class>
+</hibernate-mapping>

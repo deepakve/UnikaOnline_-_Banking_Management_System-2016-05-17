@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.unika.hibernatemapping.RegisteredUserDetails"
+		table="t_registered_user_details">
+		<id name="customerid" type="integer" column="customerid">
+			<generator class="increment">
+			</generator>
+		</id>
+
+		<property name="password">
+			<column name="password" />
+		</property>
+
+		<property name="question1">
+			<column name="question1" />
+		</property>
+
+		<property name="answer1">
+			<column name="answer1" />
+		</property>
+
+		<property name="question2">
+			<column name="question2" />
+		</property>
+
+		<property name="answer2">
+			<column name="answer2" />
+		</property>
+
+		<property name="status">
+			<column name="status" />
+		</property>
+
+		<property name="contact">
+			<column name="contact" />
+		</property>
+
+		<property name="email">
+			<column name="email" />
+		</property>
+	</class>
+</hibernate-mapping>
